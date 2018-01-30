@@ -2,8 +2,10 @@
 A python lambda function for inserting CloudTrail logs into the AWS ES service.
 
 ## Requirements
-1. CloudTrail needs to be configured to upload events to an S3 bucket
-2. An access key with the correct permissions
+1. An access key with the correct permissions
+2. CloudTrail needs to be configured to upload logs into an S3 bucket.
+3. The S3 bucket needs to have a trigger that will call a lambda function (the one in this project) when new files are uploaded/created in the bucket.
+
 
 ## Note
 For URL Signing, the code was taken from:
