@@ -19,5 +19,6 @@ This script:
 
 ## To do
 - use a lambda role defined in IAM to replace the need for keys in this script
-- extract the URL signature to a separate function
+- add logging capabilities instead of priting to stoud.
+- extract the URL signature to a separate function (if possible)
 - raise exceptions (this would require logic for storing the position in the file to avoid duplication and missing events)
